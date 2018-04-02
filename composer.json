@@ -1,0 +1,22 @@
+{
+    "name": "prachinagpal6/behat-logger",
+    "description": "This will create a logger for Behat in CSV format.",
+    "type": "project",
+    "require": {
+        "php": "^5.3",
+        "behat/behat": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prachi Nagpal",
+            "email": "prachinagpal6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "prachi\\BehatLogger\\": "behat-logger/src/"
+        }
+    }
+}
